@@ -2,34 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79d6c6d3-a40c-4ceb-8408-7cd6e80a31bc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_attoparser_attoparser_2_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_6_6.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_java8time_3_0_0_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_3_0_1_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_3_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_thymeleaf_spring4_3_0_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_unbescape_unbescape_1_1_4_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/view/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/core/src/main/java/com/irelint/demo/base/AjaxResponse.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/com/irelint/controller/IndexController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/admin/target/classes/com/irelint/controller/IndexController.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/admin/src/main/java/com/irelint/controller/IndexController.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/admin_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/admin_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/config/SpringWebMvcConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/admin.iml" afterPath="$PROJECT_DIR$/admin/admin.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/pom.xml" afterPath="$PROJECT_DIR$/admin/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java" afterPath="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/src/main/resources/spring-context.xml" afterPath="$PROJECT_DIR$/admin/src/main/resources/spring-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/spring-context.xml" afterPath="$PROJECT_DIR$/admin/target/admin/WEB-INF/classes/spring-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/admin/target/classes/spring-context.xml" afterPath="$PROJECT_DIR$/admin/target/classes/spring-context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/core/core.iml" afterPath="$PROJECT_DIR$/core/core.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parent/parent.iml" afterPath="$PROJECT_DIR$/parent/parent.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/parent/pom.xml" afterPath="$PROJECT_DIR$/parent/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/weixin/weixin.iml" afterPath="$PROJECT_DIR$/weixin/weixin.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -49,24 +27,13 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="IndexController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,6 +60,7 @@
         <option value="$PROJECT_DIR$/parent/pom.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/resources/spring-context.xml" />
         <option value="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/config/SpringWebMvcConfig.java" />
       </list>
     </option>
   </component>
@@ -368,6 +336,10 @@
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -390,6 +362,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/config" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/admin/src/main/resources" />
     </key>
@@ -874,7 +847,7 @@
       <updated>1487921394811</updated>
       <workItem from="1487921396333" duration="3286000" />
       <workItem from="1487931352167" duration="920000" />
-      <workItem from="1488008073156" duration="2517000" />
+      <workItem from="1488008073156" duration="3740000" />
     </task>
     <task id="LOCAL-00001" summary="添加说明文件">
       <created>1487932002683</created>
@@ -883,11 +856,18 @@
       <option name="project" value="LOCAL" />
       <updated>1487932002684</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加说明文件">
+      <created>1488012328341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1488012328341</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6723000" />
+    <option name="totallyTimeSpent" value="7946000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -1075,26 +1055,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.2.RELEASE/thymeleaf-3.0.2.RELEASE.jar!/org/thymeleaf/templateresolver/ServletContextTemplateResolver.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
           <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="4" lean-forward="false" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -1107,6 +1071,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/thymeleaf/thymeleaf/3.0.2.RELEASE/thymeleaf-3.0.2.RELEASE.jar!/org/thymeleaf/templateresolver/ServletContextTemplateResolver.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="20" lean-forward="false" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1115,10 +1095,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/controller/IndexController.java">
+    <entry file="file://$PROJECT_DIR$/admin/src/main/java/com/irelint/demo/config/SpringWebMvcConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="18" lean-forward="false" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        <state relative-caret-position="298">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding />
         </state>
       </provider>

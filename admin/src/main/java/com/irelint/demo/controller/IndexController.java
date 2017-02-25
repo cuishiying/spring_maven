@@ -12,9 +12,9 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/")
 public class IndexController {
     @RequestMapping(path = "/pager",method = RequestMethod.GET)
-    public String index(){
+    public ModelAndView index(){
         ModelAndView model = new ModelAndView("index");
         model.addObject("name","test");
-        return "ok";
+        return model;
     }
 }
