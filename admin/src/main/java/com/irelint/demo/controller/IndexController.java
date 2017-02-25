@@ -1,8 +1,9 @@
-package com.irelint.controller;
+package com.irelint.demo.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
 
 /**
  * Created by cuishiying on 2017/2/24.
@@ -10,8 +11,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class IndexController {
-    @RequestMapping(path = "/login",method = RequestMethod.GET)
-    public Object index(){
+    @RequestMapping(path = "/pager",method = RequestMethod.GET)
+    public String index(){
+        ModelAndView model = new ModelAndView("index");
+        model.addObject("name","test");
         return "ok";
     }
 }

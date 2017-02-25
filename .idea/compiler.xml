@@ -12,11 +12,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="admin" target="1.5" />
-      <module name="core" target="1.5" />
-      <module name="parent" target="1.5" />
+      <module name="admin" target="1.8" />
+      <module name="core" target="1.8" />
+      <module name="parent" target="1.8" />
       <module name="spring_maven" target="1.5" />
-      <module name="weixin" target="1.5" />
+      <module name="weixin" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

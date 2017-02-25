@@ -117,7 +117,7 @@ admin和weixin模块的pom文件如下：
         http://www.springframework.org/schema/mvc
       http://www.springframework.org/schema/mvc/spring-mvc.xsd">
 
-    <context:component-scan base-package="com.irelint.controller"/>
+    <context:component-scan base-package="com.irelint.demo"/>
     <mvc:annotation-driven/>
 
 </beans>
@@ -125,7 +125,7 @@ admin和weixin模块的pom文件如下：
 5.3、在admin/src/main   下新建JAVA文件夹。java右击Mark Directory as  Souce root。
 在java文件下新建package  。包名为com.irelint.controller,新建IndexController.java,代码如下：
 
-package com.irelint.controller;
+package com.irelint.demo;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
