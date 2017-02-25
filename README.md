@@ -7,7 +7,7 @@ maven聚合项目+SpringMVC项目搭建
 
 1、Maven多模块项目介绍，结构如下:
 
-
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/1.png) 
 
 其中，admin和weixin为springmvc前端模块，内含controller层和相关页面。依赖core模块。core中主要放置service层及repository层代码。
 
@@ -15,17 +15,17 @@ maven聚合项目+SpringMVC项目搭建
 2.1、首先创建maven多模块项目
 create New Project——Maven——project
 
-
-
-
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/2.png) 
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/3.png) 
 
 2.2、在项目下，new —— module——maven创建多模块。包含web部分
 的admin和weixin用模板创建。core和parent无模板创建。
 
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/4.png) 
 
 创建完成后项目如下：
 
-
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/5.png) 
 
 3、添加模块之间的依赖
 
@@ -33,6 +33,7 @@ create New Project——Maven——project
 
 将parent模块作为整个项目maven管理的总依赖。parent模块pom文件修改如下：
 
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/6.png) 
 
 说明：
 dependencies即使在子项目中不写该依赖项，那么子项目仍然会从父项目中继承该依赖项（全部继承）
@@ -40,12 +41,15 @@ dependencyManagement里只是声明依赖，并不实现引入，因此子项目
 
 project级的pom文件修改如下：
 
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/7.png) 
 
 core模块的pom文件如下：
 
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/8.png) 
 
 admin和weixin模块的pom文件如下：
 
+![]( https://github.com/cuishiying/spring_maven/raw/master/img/9.png) 
 
 4、此时HelloWorld即可运行，配置Tomcat略过。
 
@@ -131,9 +135,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+
 /**
  * Created by cuishiying on 2017/2/24.
  */
+ 
+ 
 @RestController
 @RequestMapping("/")
 public class IndexController {
